@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bio của Lê Gia Bảo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body::before {
+      content: "";
+      background-image: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      z-index: -1;
+      opacity: 0.15;
+      filter: blur(2px);
+    }
+  </style>
+</head>
+<body class="text-gray-800 font-sans">
+  <div class="max-w-2xl mx-auto p-6 mt-10 bg-white bg-opacity-90 shadow-xl rounded-2xl">
+    <div class="text-center">
+      <img src="https://via.placeholder.com/120" alt="Ảnh đại diện" class="rounded-full mx-auto mb-4 shadow-md">
+      <h1 class="text-3xl font-bold">Lê Gia Bảo</h1>
+      <p class="text-gray-600">Sinh viên | Lập trình viên | Sáng tạo nội dung</p>
+    </div>
+
+    <div class="mt-6 space-y-6">
+      <section>
+        <h2 class="text-xl font-semibold mb-2">📌 Giới thiệu</h2>
+        <p>
+          Xin chào! Mình là Bảo – đam mê công nghệ, thiết kế web và học hỏi không ngừng. Đây là nơi mình chia sẻ một chút về bản thân và những gì mình đang làm.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold mb-2">🔗 Liên kết</h2>
+        <ul class="space-y-2">
+          <li><a href="https://facebook.com/" target="_blank" class="text-blue-600 hover:underline">Facebook</a></li>
+          <li><a href="https://github.com/" target="_blank" class="text-blue-600 hover:underline">GitHub</a></li>
+          <li><a href="mailto:email@domain.com" class="text-blue-600 hover:underline">Email</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold mb-2">📁 Dự án</h2>
+        <ul class="list-disc pl-6 space-y-1">
+          <li>Game 2048 bằng C++</li>
+          <li>Website thuê xe chở hàng</li>
+          <li>API quản lý sinh viên</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-semibold mb-2">📨 Liên hệ với mình</h2>
+        <form class="space-y-4">
+          <div>
+            <label class="block font-medium">Tên của bạn</label>
+            <input type="text" placeholder="Nhập tên..." class="w-full mt-1 p-2 border rounded-lg shadow-sm focus:outline-none focus:ring focus:ring-blue-200">
+          </div>
+          <div>
+            <label class="block font-medium">Email</label>
+            <input type="email" placeholder="email@example.com" class="w-full mt-1 p-2 border rounded-lg shadow-sm focus:outline-none focus:ring focus:ring-blue-200">
+          </div>
+          <div>
+            <label class="block font-medium">Tin nhắn</label>
+            <textarea rows="4" placeholder="Nội dung liên hệ..." class="w-full mt-1 p-2 border rounded-lg shadow-sm focus:outline-none focus:ring focus:ring-blue-200"></textarea>
+          </div>
+          <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+            Gửi
+          </button>
+        </form>
+      </section>
+    </div>
+
+    <footer class="text-center text-gray-500 mt-10 text-sm">
+      &copy; 2025 Lê Gia Bảo. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
